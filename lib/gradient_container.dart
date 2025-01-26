@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/style_text.dart';
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.color1, this.color2, {super.key});
@@ -15,8 +14,11 @@ class GradientContainer extends StatelessWidget {
           colors: [color1, color2],
         ),
       ),
-      child: const Center(
-        child: ,
+      child: Center(
+        child: Image.asset(
+          'assets/images/dice-1.png',
+          width: 200,
+        ),
       ),
     );
   }
